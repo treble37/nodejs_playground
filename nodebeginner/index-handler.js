@@ -1,6 +1,6 @@
-var server = require("./module-server-route-handler");
-var router = require("./router-handler");
-var requestHandlers = require("./requestHandlers");
+var server = require("./module-server-route-handler-asynch");
+var router = require("./router-handler-asynch");
+var requestHandlers = require("./requestHandlersAsynch");
 
 var handle = {}
 
